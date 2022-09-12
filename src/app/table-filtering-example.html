@@ -1,6 +1,6 @@
 <mat-form-field appearance="standard">
   <mat-label>Filter by subject</mat-label>
-  <input matInput (keyup)="applyFilter($event)" placeholder="Ex. ium" #input />
+  <input matInput (keyup)="applyFilter($event)" placeholder="Filter by subject" #input />
 </mat-form-field>
 
 <table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8">
